@@ -37,9 +37,108 @@
       Downloads
     </H1>
 
+
     <P>
-      This page has some of the JBM Ballistics downloads.  
+			This page provides some of the downloads from the old website.  Most of what is here is what was
+			provided to me by Bob McCoy.
     </P>
+    
+    <P>
+      The BASIC programs were given to me by the late Robert L. McCoy and 
+      posted here with his knowledge.  He worked at the US Army's Ballistics 
+      Research Lab for many years, where he wrote these programs as part 
+      of his work.  I have made some changes to these programs (with Bob's 
+      knowledge) only as necessary to fix bugs.  There are also some 
+      tabulated drag functions some of which Bob sent me and others from 
+      the Winchester text (see citation below).
+    </P>
+    
+   <UL>
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/olin.txt">Drag Functions</A> 
+      <BR>
+      Tabulated values of the G1, G5, G6, and GL drag (G) functions, taken from 
+      <CITE>
+        Exterior Ballistics of Small Arms Projectiles
+      </CITE>, E. D. Lowry, Research Dept., Winchester-Western Division, 
+      Olin Mathieson Chemical Corporation, May 4, 1965.
+    </P>
+    
+    <LI><P>
+      More Drag Functions
+      <BR>
+      Tabulated values of CD vs. Mach Number for the 
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg1.txt">G1</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg2.txt">G2</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg5.txt">G5</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg6.txt">G6</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg7.txt">G7</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcg8.txt">G8</A>,
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcgi.txt">GI</A>, and
+			<A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/ra4.txt">RA4</A>
+      (G) functions (e.g. CD of the standard G1 bullet, etc).  Additionally,
+      I have a list of CD vs. Mach Number for a 9/16" 
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcgs.txt">sphere</A>. I obtained the G functions and
+      sphere from BRL.  Note that the mach numbers are not the same for all 
+      the tables.  The first column is the mach number, the second column 
+      is the drag coefficient.  I don't remember where I got the RA4 function.
+    </P>
+    
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/intlift.txt">IntLift</A> 
+      <BR>
+      A modified (modified by R. L. McCoy) version of M. A. Morris' 
+      RARDLIFT code with corrections for small arms bullets and medium caliber
+      cannon projectiles.  Provides interim estimates of lift, overturning 
+      moment and yaw drag coefficients.  Inputs are very similar to McDrag 
+      (above) but it does require the center of gravity location.
+    </P>
+    
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/intlift2.txt">IntLift2</A> 
+      <BR>
+      A modified version of INTLIFT.BAS that has some bug fixes.  The 
+      original version was written to run on a Tandy1000.  There were a 
+      few problems with floating point comparisons, etc.  I believe that
+      this version fixes those bugs.  
+    </P>
+    
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcdrag.txt">McDrag</A> 
+      <BR>
+      Calculates bullet CD versus mach number based on bullet dimensions. 
+      For more information on this particular program see 
+      <CITE>
+        "McDrag" - A Computer Program for Estimating the Drag Coefficients
+        of Projectiles,
+      </CITE>
+      Robert L. McCoy, Technical Report ARBRL-TR-02293, February 1981, 
+      [ADA098110].
+    </P>
+    
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mcgyro.txt">McGyro</A> 
+      <BR>
+      Stability program.  Calculates required twist and bullet stability.
+      This is not Greenhill's formula.
+    </P>
+    
+    <LI><P>
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/mctraj.txt">McTraj</A> 
+      <BR>
+      Trajectory calculation program using a second order Huene predictor 
+      corrector method, and a table of CD vs. Mach number  to calculate 
+      point mass trajectories.
+    </P>
+
+		<LI><P>
+			The last updated 	
+      <A HREF="https://jbm-ballistics.github.io/jbm-ballistics-apps/downloads/modeb9lc.pdf">copy</A> 
+			of the unofficial errata of the Bob McCoy's book, Modern Exterior Ballistics.  This was provided to me 
+			by the late Don Miller.
+		</P>
+
+   </UL>
 
   </DIV>
 
