@@ -4,3 +4,13 @@ body
     color: black; /* Sets the text color */
     background-color: #F8F8FF; /* Sets the background color */
 }
+
+.div_header
+{
+  width: auto; 
+  float: top;
+  height: 140px;
+  background-image: url(https://jbm-ballistics.github.io/jbm-ballistics-apps/assets/graphics/header_background.png); 
+  background-repeat: no-repeat;
+  background-color: #C0C0C0;
+}
